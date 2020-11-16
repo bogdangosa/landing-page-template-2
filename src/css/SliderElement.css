@@ -1,0 +1,24 @@
+.SliderElement{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+
+.Information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 50%;
+    height: 30%;
+    transform: translate(-50%,-50%);
+}
+.Information h1{
+    font-size: 3rem;
+}

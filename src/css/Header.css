@@ -1,0 +1,35 @@
+.Header{
+    position: fixed;
+    top: 0;
+    width: 92vw;
+    background: none;
+    height: 7vh;
+    padding: 2vh 4vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    transition: 1s;
+}
+
+.NavBar{
+    display:flex;
+    list-style-type: none;
+}
+.NavBar li{
+    margin:1vw;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.NavBar li:hover{
+    color: #18d26e;
+}
+
+.black{
+    background: rgba(0, 0, 0, 0.9);
+}
+.transparent{
+    background:none;
+}

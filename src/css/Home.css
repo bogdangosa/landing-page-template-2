@@ -1,0 +1,50 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+}
+
+.Arrow{
+    position: absolute;
+    top: 50%;
+    width: 3vw;
+    height: 3vw;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.ArrLeft{
+    left:2%;
+}
+.ArrRight{
+    right:2%;
+}
+
+.line{
+    position: absolute;
+    left:50%;
+    width: 80%;
+    height: 10%;
+    background-color:#949494;
+    border-radius: 1rem;
+}
+.Arrow:hover .line{
+    background-color:#fff;
+}
+
+.l1L{
+    top:75%;
+    transform:translate(-50%,-50%) rotate(45deg);
+}
+.l2L{
+    top:25%;
+    transform:translate(-50%,-50%) rotate(-45deg);
+}
+
+.l1R{
+    top:25%;
+    transform:translate(-50%,-50%) rotate(45deg);
+}
+.l2R{
+    top:75%;
+    transform:translate(-50%,-50%) rotate(-45deg);
+}

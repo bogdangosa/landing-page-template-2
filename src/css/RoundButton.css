@@ -1,0 +1,14 @@
+.RoundButton{
+    padding: 0.7rem 2rem;
+    color:#fff;
+    background-color:#18d26e;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+.RoundButton:hover{
+    color:#18d26e;
+    background-color:#fff;
+}
